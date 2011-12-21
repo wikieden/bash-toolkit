@@ -8,8 +8,8 @@ configuraion and tools for developers in Bash for efficiency.
 
 #. method 1
 
-* $ git clone ...
-* $ cd ... && make install
+* $ git clone git://github.com/chzealot/bash-toolkit.git
+* $ cd bash-toolkit && make install
 * append the follow code snippets into ~/.bashrc or "~/.bash_profile"
 
 ```bash
@@ -20,6 +20,7 @@ fi
 
 # method 2
 
+* $ git clone git://github.com/chzealot/bash-toolkit.git
 * copy .bash.d and .local into ~/
 * append the follow code snippets into ~/.bashrc or "~/.bash_profile"
 

@@ -69,6 +69,14 @@ fi
 * http://betterthangrep.com
 * Copyright 2005-2011 Andy Lester under the terms of the Artistic License v2.0
 
+#. termcolor.py
+
+* http://pypi.python.org/pypi/termcolor
+* Copyright (c) 2008-2011 Volvox Development Team under the MIT License
+
+#. Thanks
+
 Thanks to the above authors for their great works!
 
 Some code snippets were taken from the internet, thanks to Google and the authors.
+

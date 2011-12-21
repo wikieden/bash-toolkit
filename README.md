@@ -1,6 +1,6 @@
 Bash ToolKit - Bash工具箱
 
-English edition: https://github.com/chzealot/bash-toolkit/blob/master/README.md
+English edition: https://github.com/chzealot/bash-toolkit/blob/master/README.en.md
 
 ## 概述
 

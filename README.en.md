@@ -1,30 +1,28 @@
-Bash ToolKit - Bash工具箱
+Bash ToolKit
 
-English edition: https://github.com/chzealot/bash-toolkit/blob/master/README.md
+## Overview
 
-## 概述
+configuraion and tools for developers in Bash for efficiency.
 
-提高Bash使用效率的配置文件和工具
+## Features
 
-## 特点
+1. Make it easier to get comfortable in Bash, such as "to ignore .svn directory for 'grep'"
+1. Support console colorize, like svn,gcc,make and diff
+1. Support z, Tracks your most used directories, based on 'frecency'
+1. Support bashmarks, Directory bookmarks for the shell
+1. Support ack, better than "grep"
+1. Support dynamic motd(/etc/motd)
+1. Platform self-adapting, load difference config in difference system automatically, like Mac, Linux, etc
+1. Username self-adapting, load difference config for difference user automatically
+1. Support chinese character friendly for the shell in Mac
 
-1. Bash使用更加方便，例如grep命令带颜色、忽略.svn目录
-1. 常用命令支持终端颜色，例如svn、gcc、make和diff
-1. 支持z工具，记录并自动在目录间跳转，基于使用频率(z foobar, z foo, etc.)
-1. 支持bashmarks，设置目录书签，跳转到书签对应的目录(s设置,g跳转,l列出书签列表)
-1. 支持ack工具，类似grep但更好用，更强大
-1. 支持动态motd，自定义登陆shell时欢迎消息(/etc/motd为静态文本信息)
-1. 平台自适应，自动加载系统对应的特定配置，例如Mac、Linux等
-1. 用户名自适应，自动根据用户名加载对应配置
-1. Mac下优化，例如中文显示、Mac中特殊路径
+## Installation
 
-## 安装
-
-1. 方法1: 使用make令自动安装
+1. method 1
 
     * $ git clone git://github.com/chzealot/bash-toolkit.git
     * $ cd bash-toolkit && make install
-    * 将以下容添加到~/.bashrc 或 ~/.bash_profile末尾
+    * append the follow code snippets into ~/.bashrc or "~/.bash_profile"
 
 ```bash
 if [ -f ~/.bash.d/bashrc ]; then
@@ -32,11 +30,11 @@ if [ -f ~/.bash.d/bashrc ]; then
 fi
 ```
 
-1. 方法2: 手动拷贝文件
+1. method 2
 
     * $ git clone git://github.com/chzealot/bash-toolkit.git
-    * 复制.bash.d 和 .local 目录到 ~/
-    * 将以下容添加到~/.bashrc 或 ~/.bash_profile末尾
+    * copy .bash.d and .local into ~/
+    * append the follow code snippets into ~/.bashrc or "~/.bash_profile"
 
 ```bash
 if [ -f ~/.bash.d/bashrc ]; then
@@ -45,7 +43,7 @@ fi
 ```
 
 
-## 版权
+## Copyright
 
 1. z
 
@@ -89,16 +87,14 @@ fi
     * http://pypi.python.org/pypi/termcolor
     * Copyright (c) 2008-2011 Volvox Development Team under the MIT License
 
-1. 致谢
+1. Thanks
 
-   非常感谢以上作者的努力工作！
-
-   部分代码片段来自网上，来源已经不清楚，一并致谢！
-
-   感谢Google，虽然这个公司似乎已经中了微软病毒。
+   Thanks to the above authors for their great works!
+   
+   Some code snippets were taken from the internet, thanks to Google and the authors.
 
 
 ## TODO List
 
-1. 添加.inputrc
-1. 添加各部分详细说明
+1. add .inputrc
+1. add more details

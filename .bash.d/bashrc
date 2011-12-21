@@ -1,0 +1,26 @@
+## common options
+if [ -f ~/.bash.d/common.bashrc ]; then
+    . ~/.bash.d/common.bashrc
+fi
+
+
+## platform self-adapting
+if [ `uname` = "Darwin" ]; then
+    # for Mac OX
+    if [ -f ~/.bash.d/mac.bashrc ]; then
+        . ~/.bash.d/mac.bashrc
+    fi
+else
+    # default as Linux
+    if [ -f ~/.bash.d/linux.bashrc ]; then
+        . ~/.bash.d/linux.bashrc
+    fi
+fi
+
+
+## options for server of taobao
+if [ `whoami` = "jinxi.kj" ]; then
+    if [ -f ~/.bash.d/taobao.bashrc ]; then
+        . ~/.bash.d/taobao.bashrc
+    fi
+fi

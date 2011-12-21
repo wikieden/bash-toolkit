@@ -47,49 +47,49 @@ fi
 
 1. z
 
-* https://github.com/rupa/z
-* Copyright (c) 2009 rupa deadwyler under the WTFPL license
+    * https://github.com/rupa/z
+    * Copyright (c) 2009 rupa deadwyler under the WTFPL license
 
 1. colorsvn
 
-* http://colorsvn.tigris.org/
-* Copyright 2007 Valerij Klein <vklein@console-colors.de> under the GNU General Public License
-* Copyright 2002 Neil Stevens <neil@qualityassistant.com> under the GNU General Public License
-* Copyright 1999 Jamie Moyers <jmoyers@geeks.com> under the GNU General Public License
+    * http://colorsvn.tigris.org/
+    * Copyright 2007 Valerij Klein <vklein@console-colors.de> under the GNU General Public License
+    * Copyright 2002 Neil Stevens <neil@qualityassistant.com> under the GNU General Public License
+    * Copyright 1999 Jamie Moyers <jmoyers@geeks.com> under the GNU General Public License
 
 1. colorgcc
 
-* http://schlueters.de/colorgcc.html
-* Copyright 1999 Jamie Moyers <jmoyers@geeks.com> under the GNU Public License
+    * http://schlueters.de/colorgcc.html
+    * Copyright 1999 Jamie Moyers <jmoyers@geeks.com> under the GNU Public License
 
 1. colordiff
 
-* http://colordiff.sourceforge.net/
-* Copyright (C) 2002-2009 Dave Ewart (davee@sungate.co.uk) under the GNU General Public License
+    * http://colordiff.sourceforge.net/
+    * Copyright (C) 2002-2009 Dave Ewart (davee@sungate.co.uk) under the GNU General Public License
 
 1. colormake
 
-* http://bre.klaki.net/programs/colormake/
-* Copyright: (C) 1999, Bjarni R. Einarsson <bre@netverjar.is> under the GNU General Public License
+    * http://bre.klaki.net/programs/colormake/
+    * Copyright: (C) 1999, Bjarni R. Einarsson <bre@netverjar.is> under the GNU General Public License
 
 1. bashmarks
 
-* https://github.com/huyng/bashmarks
-* Copyright (c) 2010, Huy Nguyen, http://www.huyng.com, All rights reserved.
+    * https://github.com/huyng/bashmarks
+    * Copyright (c) 2010, Huy Nguyen, http://www.huyng.com, All rights reserved.
 
 1. ack
 
-* http://betterthangrep.com
-* Copyright 2005-2011 Andy Lester under the terms of the Artistic License v2.0
+    * http://betterthangrep.com
+    * Copyright 2005-2011 Andy Lester under the terms of the Artistic License v2.0
 
 1. termcolor.py
 
-* http://pypi.python.org/pypi/termcolor
-* Copyright (c) 2008-2011 Volvox Development Team under the MIT License
+    * http://pypi.python.org/pypi/termcolor
+    * Copyright (c) 2008-2011 Volvox Development Team under the MIT License
 
 1. Thanks
 
-Thanks to the above authors for their great works!
-
-Some code snippets were taken from the internet, thanks to Google and the authors.
+   Thanks to the above authors for their great works!
+   
+   Some code snippets were taken from the internet, thanks to Google and the authors.
 

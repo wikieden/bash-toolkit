@@ -52,6 +52,4 @@ if [ -f ~/.local/bin/dynmotd ]; then
     ~/.local/bin/dynmotd
 fi
 
-cd ~/
-
 # TODO: personal options

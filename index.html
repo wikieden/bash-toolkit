@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+
+  <title>chzealot/bash-toolkit @ GitHub</title>
+
+  <style type="text/css">
+    body {
+      margin-top: 1.0em;
+      background-color: #e7e5f0;
+      font-family: Helvetica, Arial, FreeSans, san-serif;
+      color: #000000;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+    h1 { font-size: 3.8em; color: #181a0f; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #181a0f; }
+    h3 { text-align: center; color: #181a0f; }
+    a { color: #181a0f; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+  </style>
+</head>
+
+<body>
+  <a href="https://github.com/chzealot/bash-toolkit"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="https://github.com/chzealot/bash-toolkit/zipball/master">
+        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
+      <a href="https://github.com/chzealot/bash-toolkit/tarball/master">
+        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="https://github.com/chzealot/bash-toolkit">bash-toolkit</a>
+      <span class="small">by <a href="https://github.com/chzealot">chzealot</a></span></h1>
+
+    <div class="description">
+      Bash Toolkit - Bash工具箱
+    </div>
+
+    
+      <p>## 概述
+
+提高Bash使用效率的配置文件和工具
+
+## 特点
+
+1. Bash使用更加方便，例如grep命令带颜色、忽略.svn目录
+1. 常用命令支持终端颜色，例如svn、gcc、make和diff
+1. 支持z工具，记录并自动在目录间跳转，基于使用频率(z foobar, z foo, etc.)
+1. 支持bashmarks，设置目录书签，跳转到书签对应的目录(s设置,g跳转,l列出书签列表)
+1. 支持ack工具，类似grep但更好用，更强大
+1. 支持动态motd，自定义登陆shell时欢迎消息(/etc/motd为静态文本信息)
+1. 平台自适应，自动加载系统对应的特定配置，例如Mac、Linux等
+1. 用户名自适应，自动根据用户名加载对应配置
+1. Mac下优化，例如中文显示、Mac中特殊路径
+
+## Overview
+
+configuraion and tools for developers in Bash for efficiency.
+
+## Features
+
+1. Make it easier to get comfortable in Bash, such as "to ignore .svn directory for 'grep'"
+1. Support console colorize, like svn,gcc,make and diff
+1. Support z, Tracks your most used directories, based on 'frecency'
+1. Support bashmarks, Directory bookmarks for the shell
+1. Support ack, better than "grep"
+1. Support dynamic motd(/etc/motd)
+1. Platform self-adapting, load difference config in difference system automatically, like Mac, Linux, etc
+1. Username self-adapting, load difference config for difference user automatically
+1. Support chinese character friendly for the shell in Mac</p>
+    
+
+    
+      <h2>Dependencies</h2>
+      <p>bash</p>
+    
+
+    
+      <h2>Install</h2>
+      <p>    * $ git clone git://github.com/chzealot/bash-toolkit.git
+    * $ cd bash-toolkit && make install
+    * append the follow code snippets into ~/.bashrc or "~/.bash_profile"
+
+```bash
+if [ -f ~/.bash.d/bashrc ]; then
+    . ~/.bash.d/bashrc
+fi
+```</p>
+    
+
+    
+      <h2>License</h2>
+      <p>WTFPL</p>
+    
+
+    
+      <h2>Authors</h2>
+      <p>Zealot Ke (chzealot@gmail.com) <br/>http://blog.losthit.com/</p>
+    
+
+    
+      <h2>Contact</h2>
+      <p>Zealot Ke (chzealot@gmail.com)</p>
+    
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="https://github.com/chzealot/bash-toolkit/zipball/master">zip</a> or
+      <a href="https://github.com/chzealot/bash-toolkit/tarball/master">tar formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/chzealot/bash-toolkit</pre>
+    </p>
+
+    <div class="footer">
+      get the source code on GitHub : <a href="https://github.com/chzealot/bash-toolkit">chzealot/bash-toolkit</a>
+    </div>
+
+  </div>
+
+<script type=\"text/javascript\">
+var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\");
+document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\"));
+</script>
+<script type=\"text/javascript\">
+try {
+var pageTracker = _gat._getTracker("UA-4519199-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>"
+</body>
+</html>

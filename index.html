@@ -169,20 +169,17 @@
 
       <ol>
 
-        <li>
-
-        <p>
-        method 1
-        </p>
-
-        <ul>
-
           <li>
-          <pre>$ git clone git://github.com/chzealot/bash-toolkit.git</pre>
+          <pre>$ wget --no-check-certificate "https://github.com/chzealot/bash-toolkit/raw/master/install.sh" -O install.sh</pre>
           </li>
 
           <li>
-          <pre>$ cd bash-toolkit &amp;&amp; make install</pre>
+          <pre>$ chmod +x install.sh</pre>
+          </li>
+
+
+          <li>
+          <pre>$ ./install.sh</pre>
           </li>
 
           <li>
@@ -193,10 +190,6 @@ if [ -f ~/.bash.d/bashrc ]; then
 fi
 </pre>
           </li>
-
-        </ul>
-
-        </li>
 
       </ol>
 

@@ -57,6 +57,12 @@ if [[ -f ~/.bash_profile ]]; then
     if [[ `grep "\.bash\.d" ~/.bash_profile` ]]; then
         INCLUDED=1
     fi
+else
+    echo "# add by bash-tookit installer" >> ~/.bash_profile
+    echo "# see https://github.com/chzealot/bash-toolkit" >> ~/.bash_profile
+    echo "if [ -f ~/.bashrc ]; then" >> ~/.bash_profile
+    echo "    . ~/.bashrc" >> ~/.bash_profile
+    echo "fi" >> ~/.bash_profile
 fi
 
 if [[ $INCLUDED = 0 ]]; then

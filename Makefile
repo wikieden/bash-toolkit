@@ -28,6 +28,7 @@ package:
 install:
 	cp -rf .bash.d ~/
 	cp -rf .local ~/
+	cp -rf .inputrc ~/
 
 .PHONY: copy_all_bashrc copy_all_bin
 copy_all_bashrc:

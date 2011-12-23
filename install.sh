@@ -48,12 +48,17 @@ $MAKE install
 cd $CWD
 
 INCLUDED=0
-if [[ `grep "\.bash\.d" ~/.bashrc` ]]; then
-    INCLUDED=1
+if [[ -f ~/.bashrc ]]; then
+    if [[ `grep "\.bash\.d" ~/.bashrc` ]]; then
+        INCLUDED=1
+    fi
 fi
-if [[ `grep "\.bash\.d" ~/.bash_profile` ]]; then
-    INCLUDED=1
+if [[ -f ~/.bash_profile ]]; then
+    if [[ `grep "\.bash\.d" ~/.bash_profile` ]]; then
+        INCLUDED=1
+    fi
 fi
+
 if [[ $INCLUDED = 0 ]]; then
     echo "" >> ~/.bashrc
     echo "# add by bash-tookit installer" >> ~/.bashrc

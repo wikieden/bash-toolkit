@@ -20,30 +20,9 @@ English edition: https://github.com/chzealot/bash-toolkit/blob/master/README.en.
 
 ## 安装
 
-1. 方法1: 使用make令自动安装
-
-    * $ git clone git://github.com/chzealot/bash-toolkit.git
-    * $ cd bash-toolkit && make install
-    * 将以下容添加到~/.bashrc 或 ~/.bash_profile末尾
-
-```bash
-if [ -f ~/.bash.d/bashrc ]; then
-    . ~/.bash.d/bashrc
-fi
-```
-
-1. 方法2: 手动拷贝文件
-
-    * $ git clone git://github.com/chzealot/bash-toolkit.git
-    * 复制.bash.d 和 .local 目录到 ~/
-    * 将以下容添加到~/.bashrc 或 ~/.bash_profile末尾
-
-```bash
-if [ -f ~/.bash.d/bashrc ]; then
-    . ~/.bash.d/bashrc
-fi
-```
-
+1. `$ wget --no-check-certificate "https://github.com/chzealot/bash-toolkit/raw/master/install.sh" -O install.sh`
+1. `$ chmod +x install.sh`
+1. `$ ./install.sh`
 
 ## 版权
 

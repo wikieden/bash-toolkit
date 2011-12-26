@@ -49,6 +49,7 @@ if [ -f ~/.bashrc.d/colorize.bashrc ]; then
 fi
 
 if [ -f ~/.local/bin/dynmotd ]; then
+    clear
     ~/.local/bin/dynmotd
 fi
 

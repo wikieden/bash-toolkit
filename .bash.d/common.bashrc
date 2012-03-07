@@ -44,8 +44,8 @@ export HISTIGNORE="pwd:history:ls:ls -ltr:"
 export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ "
 
 ########## colorize options ##########
-if [ -f ~/.bashrc.d/colorize.bashrc ]; then
-    . ~/.bashrc.d/colorize.bashrc
+if [ -f ~/.bash.d/colorize.bashrc ]; then
+    . ~/.bash.d/colorize.bashrc
 fi
 
 if [ -f ~/.local/bin/dynmotd ]; then

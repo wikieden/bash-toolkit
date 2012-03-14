@@ -1,3 +1,8 @@
+########## default bashrc from debian ##########
+if [ -f ~/.bash.d/debian.bashrc ]; then
+    source ~/.bash.d/debian.bashrc
+fi
+
 ########## plugin ##########
 ## z - jump around
 # @see https://github.com/rupa/z

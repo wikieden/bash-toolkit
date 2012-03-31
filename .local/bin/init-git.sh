@@ -23,6 +23,10 @@ PROJECT_NAME=$(basename `pwd`)
 
 git init-db
 
+touch README
+git add README
+git commit -s README -m "first commit"
+
 git config --local --replace-all core.bare true
 
 git config --local --add hooks.emailprefix "[$PROJECT_NAME]"

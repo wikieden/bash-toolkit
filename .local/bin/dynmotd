@@ -108,6 +108,7 @@ class _SysUtil(object):
         return result
 
 class LinuxUtil(_SysUtil):
+    DISK_TO_CHECK = '/home'
     def __init__(self):
         return
 
@@ -155,6 +156,7 @@ class LinuxUtil(_SysUtil):
         return result
 
 class MacUtil(_SysUtil):
+    DISK_TO_CHECK = '/'
     def __init__(self):
         return
 

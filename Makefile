@@ -29,6 +29,7 @@ install:
 	cp -rf .bash.d ~/
 	cp -rf .local ~/
 	cp -rf .inputrc ~/
+	cp -rf .gitconfig ~/
 
 .PHONY: copy_all_bashrc copy_all_bin
 copy_all_bashrc:

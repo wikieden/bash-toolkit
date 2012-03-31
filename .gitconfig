@@ -1,0 +1,26 @@
+[user]
+	name = Zealot Ke
+	email = chzealot@gmail.com
+[alias]
+	co = checkout
+	ci = commit -s
+	ca = commit -a -s
+	st = status
+	br = branch
+	oneline = log --pretty=oneline --since='2 days ago'
+	week = log --pretty=oneline --since='7 days ago'
+	onelog = log -p -1
+    shorten = "!sh -c 'curl -i http://git.io -F url=$1' -"
+[color]
+	status = auto
+	branch = auto
+	ui = auto
+[core]
+	editor = /usr/bin/vim
+	excludesfile = /Users/zealot/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

@@ -27,7 +27,7 @@ alias aptkey="sudo apt-key adv --keyserver keyserver.ubuntu.com --recv"
 export LANG=en_US.UTF-8
 
 # path
-export PATH=/usr/local/bin:$PATH
+export PATH=/usr/local/sbin:/usr/local/bin:$PATH
 export PATH=$PATH:~/.local/bin
 
 # editor
@@ -41,6 +41,7 @@ export HISTCONTROL=ignoredups
 export HISTCONTROL=erasedups
 export HISTCONTROL=ignorespace
 export HISTIGNORE="pwd:history:ls:ls -ltr:"
+export HISTTIMEFORMAT="[%Y-%m-%d %H:%M:%S] "
 
 ########## git options ##########
 # prompt

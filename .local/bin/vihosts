@@ -1,0 +1,27 @@
+#!/bin/bash
+#===============================================================================
+#          FILE:  vihosts.sh
+# 
+#         USAGE:  ./vihosts.sh 
+# 
+#   DESCRIPTION:  
+# 
+#       OPTIONS:  ---
+#  REQUIREMENTS:  ---
+#          BUGS:  ---
+#         NOTES:  ---
+#        AUTHOR:  Zealot Ke (Zealot), chzealot@gmail.com
+#       COMPANY:  losthit.com
+#       VERSION:  1.0
+#       CREATED:  04/13/2012 14:47:02 CST
+#      REVISION:  ---
+#===============================================================================
+
+FILE=`mktemp /tmp/hosts.XXXXXXXXXXXX`
+
+cp /etc/hosts $FILE && \
+    vi $FILE
+
+sudo cp $FILE /etc/hosts && \
+    sudo cp $FILE /etc/hosts.ac && \
+    rm $FILE

@@ -30,6 +30,8 @@ install:
 	cp -rf .local ~/
 	cp -rf .inputrc ~/
 	cp -rf .gitconfig ~/
+	cp -f install.sh ~/.local/bin/update-bashrc.sh && \
+		chmod +x ~/.local/bin/update-bashrc.sh
 
 .PHONY: copy_all_bashrc copy_all_bin
 copy_all_bashrc:

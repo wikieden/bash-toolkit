@@ -10,10 +10,10 @@
 #  REQUIREMENTS:  ---
 #          BUGS:  ---
 #         NOTES:  ---
-#        AUTHOR:  Zealot Ke (Zealot), chzealot@gmail.com
-#       COMPANY:  losthit.com
+#        AUTHOR:  wikieden, wikieden@gmail.com
+#       COMPANY:  wikieden
 #       VERSION:  1.0
-#       CREATED:  12/23/2011 09:44:54 CST
+#       CREATED:  8/21/2015
 #      REVISION:  ---
 #===============================================================================
 
@@ -21,7 +21,7 @@
 TARGET_PATH="/tmp/install_bash_tookit"
 TARGET_FILE="bash-toolkit.tar.gz"
 TARGET_DIR="bash-toolkit"
-TARGET_LINK="https://github.com/chzealot/bash-toolkit/tarball/master"
+TARGET_LINK="https://github.com/wikieden/bash-toolkit/tarball/master"
 WGET="`which wget|awk -F" " '{print $1}'` --no-check-certificate"
 MKDIR="`which mkdir|awk -F" " '{print $1}'`"
 MV="`which mv|awk -F" " '{print $1}'`"
@@ -59,7 +59,7 @@ if [[ -f ~/.bash_profile ]]; then
     fi
 else
     echo "# add by bash-tookit installer" >> ~/.bash_profile
-    echo "# see https://github.com/chzealot/bash-toolkit" >> ~/.bash_profile
+    echo "# see https://github.com/wikieden/bash-toolkit" >> ~/.bash_profile
     echo "if [ -f ~/.bashrc ]; then" >> ~/.bash_profile
     echo "    . ~/.bashrc" >> ~/.bash_profile
     echo "fi" >> ~/.bash_profile
@@ -68,7 +68,7 @@ fi
 if [[ $INCLUDED = 0 ]]; then
     echo "" >> ~/.bashrc
     echo "# add by bash-tookit installer" >> ~/.bashrc
-    echo "# see https://github.com/chzealot/bash-toolkit" >> ~/.bashrc
+    echo "# see https://github.com/wikieden/bash-toolkit" >> ~/.bashrc
     echo "if [ -f ~/.bash.d/bashrc ]; then" >> ~/.bashrc
     echo "    . ~/.bash.d/bashrc" >> ~/.bashrc
     echo "fi" >> ~/.bashrc

@@ -41,7 +41,7 @@ $WGET "$TARGET_LINK" -O $TARGET_FILE
 $RM -rf $TARGET_DIR
 $RM -rf chzealot-bash-toolkit-*
 $TAR zxvf $TARGET_FILE
-$MV chzealot-bash-toolkit-* $TARGET_DIR
+$MV wikieden-bash-toolkit-* $TARGET_DIR
 cd $TARGET_DIR
 $MAKE install
 
